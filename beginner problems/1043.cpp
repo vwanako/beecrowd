@@ -19,7 +19,7 @@ int main()
     else
     {
         perimetro = a + b + c;
-        std::cout << "Perimetro = " << std::fixed << std::setprecision(1) << area << std::endl;
+        std::cout << "Perimetro = " << std::fixed << std::setprecision(1) << perimetro << std::endl;
     }
 
     return 0;
