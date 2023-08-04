@@ -23,8 +23,7 @@ int main()
         duracao_minutos = duracao_minutos % 60;
     }
 
-    std::cout
-        << "O JOGO DUROU " << duracao_horas << " HORA(S) E " << duracao_minutos << " MINUTO(S)" << std::endl;
+    std::cout << "O JOGO DUROU " << duracao_horas << " HORA(S) E " << duracao_minutos << " MINUTO(S)" << std::endl;
 
     return 0;
 }
