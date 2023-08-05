@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main()
+{
+    int x, y;
+    std::cin >> x >> y;
+
+    while (x != y)
+    {
+        if (x > y)
+            std::cout << "Decrescente" << std::endl;
+        else
+            std::cout << "Crescente" << std::endl;
+
+        std::cin >> x >> y;
+    }
+
+    return 0;
+}
