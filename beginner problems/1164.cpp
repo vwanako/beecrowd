@@ -7,13 +7,13 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        int x, sum;
+        int x, sum = 0;
         std::cin >> x;
 
-        for (int j = 0, sum = 0; j < x; j++)
+        for (int j = 1; j < x; j++)
         {
             if (x % j == 0)
-                sum += (x % i);
+                sum += j;
         }
 
         if (sum == x)
